@@ -10,8 +10,11 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
 **How to create my.azureauth file?**
 
 **az** login
+
 **az** account list --output table
+
 **az** account set --subscription "YOUR SUBSCRIPTION ID"
+
 **az** ad sp create-for-rbac --sdk-auth > my.azureauth
 
 **MORE RESOURCE**
